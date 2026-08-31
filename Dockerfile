@@ -8,7 +8,7 @@ COPY . .
 
 RUN go test ./
 
-RUN go build ./
+RUN go build -o /app/deploy-demo ./
 
 EXPOSE 8080
 
