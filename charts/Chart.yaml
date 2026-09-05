@@ -1,0 +1,6 @@
+apiVersion: v2
+name: deploy-demo
+description: Demo Go application deployed to Kubernetes by GitHub Actions
+version: 0.1.0
+appVersion: "0.1.0"
+type: application
